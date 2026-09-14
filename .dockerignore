@@ -1,0 +1,44 @@
+# Git & VCS
+.git
+.gitignore
+.gitattributes
+
+# Dependencies & Package Managers
+node_modules
+.npm
+.bun
+
+# Environment & Secrets (NEVER bake secrets into Docker images)
+.env*
+!.env.example
+ops/secrets/*
+ops/.env*
+
+# Tests & Coverage
+.e2e
+tests
+coverage
+*.test.ts
+*.spec.ts
+*.test.tsx
+playwright-report
+test-results
+
+# Build outputs & caches
+dist
+.output
+.nitro
+.tanstack
+.vite
+.cache
+tmp
+temp
+*.log
+
+# Documentation & IDE
+docs
+.idea
+.vscode
+.gemini
+*.md
+!README.md

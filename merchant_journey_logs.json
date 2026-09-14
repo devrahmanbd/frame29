@@ -1,0 +1,25 @@
+{
+  "logs": [],
+  "interactiveElements": [
+    {
+      "tag": "BUTTON",
+      "text": "Sign in",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Continue with Google",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "No account? Create one",
+      "href": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Forgot password?",
+      "href": null
+    }
+  ]
+}
