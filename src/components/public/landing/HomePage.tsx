@@ -1,3 +1,11 @@
+/**
+ * AI Studio preview design — the single source of truth for the marketing homepage.
+ * This is the deployed design at framique.qubickle.com.
+ * Do NOT create alternate versions. Edit this file directly.
+ *
+ * Design: frost glass CTAs (fq-cta-*), GSAP carousel, aurora background.
+ * Marketing copy lives in src/lib/marketing/home.content.ts.
+ */
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { motion, AnimatePresence } from "motion/react";
